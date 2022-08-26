@@ -7,6 +7,26 @@
 </head>
 
 <body>
+    <div id="overlay"></div>
+
+    <div id="mobile-menu"class="mobile-main-menu">
+        <ul>
+            <li><a href="#">Mission</li>
+            <li><a href="#">Launchhes</li>
+            <li><a href="#">Careers</li>
+            <li><a href="#">Updates</li>
+            <li><a href="#">Shop</li>
+            
+
+            <li class="mobile-only"><a href="falcon9.html">Falcon9</a></li>
+            <li class="mobile-only"><a href="falcon-hevy.html">Falcon Heavy</a> </li>
+            <li class="mobile-only"><a href="/">Starship</a></li>
+            <li class="mobile-only"><a href="/">Human Space Flight</a></li>
+            <li class="mobile-only"><a href="/">Rideshear</a></li>
+           
+
+        </ul>
+    </div>
     <header class="main-header">
     <div class="logo">
         <a href="index.php">
@@ -27,11 +47,11 @@
 
     </header>
     <!---- hamburger meni-->
-    <button id="menu-btn"class="hamburger" type="button"></button>
+    <button id="menu-btn"class="hamburger" type="button">
     <span class="hamburger-top"></span>
     <span class="hamburger-middle"></span>
     <span class="hamburger-bottom"></span>
-
+</button>
     
 
     <!---SECTION A -->
