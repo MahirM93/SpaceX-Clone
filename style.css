@@ -204,8 +204,33 @@ footer ul li{
     color: #aaa;
     font-size: 13px;
     line-height: 2.5;
-    
+
 }
+
+/*Hamburger menu*/
+.hamburger{
+    position:fixed;
+    top: 40px;
+    right: 20px;
+    z-index: 10;
+    cursor: pointer;
+    width: 20px;
+    background: none;
+    border: none;
+}
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom{
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+
+
+
 
 
 /*animation*/
@@ -232,6 +257,26 @@ transform: translateY(0);
     40%{
         opacity: 1;
         transform: translateY(0);
+    }
+
+}
+
+/*MEDIA Queris*/
+
+@media(max-width:960px){
+    /*hide desk menu*/
+    .meni{
+        display: none;
+    }
+}
+@media(max-width:600px){
+    .section-inner{
+        bottom: 75px;
+        left: 20px;
+
+    }
+    .section-inner h2{
+        font-size: 40px;
     }
 
 }

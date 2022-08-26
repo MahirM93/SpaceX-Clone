@@ -26,6 +26,13 @@
     </nav>
 
     </header>
+    <!---- hamburger meni-->
+    <button id="menu-btn"class="hamburger" type="button"></button>
+    <span class="hamburger-top"></span>
+    <span class="hamburger-middle"></span>
+    <span class="hamburger-bottom"></span>
+
+    
 
     <!---SECTION A -->
     <section class="section-a">
